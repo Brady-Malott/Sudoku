@@ -577,8 +577,7 @@ public class GameScreen implements Screen, InputProcessor {
 
 		// Read through the highscores file and store each as a string in the String[]
 		// highScores
-		File read = new File(
-				"C:\\Users\\katwi\\Desktop\\Code\\libgdx games\\sudokugame\\core\\src\\com\\sudoku\\game\\highscores");
+		File read = new File("filepath");
 		Scanner sc = new Scanner(read);
 		int c = 0;
 		while (sc.hasNextLine() && c < 10) {
@@ -599,8 +598,7 @@ public class GameScreen implements Screen, InputProcessor {
 			// Add this game's time to high scores if it is in the top 10
 			String[] newHighScores = addToHighScores(elapsedTimeSeconds);
 
-			FileWriter write = new FileWriter(
-					"C:\\Users\\katwi\\Desktop\\Code\\libgdx games\\sudokugame\\core\\src\\com\\sudoku\\game\\highscores");
+			FileWriter write = new FileWriter("filepath");
 			for (String line : newHighScores) {
 				if (line != null) {
 					write.write(line);
