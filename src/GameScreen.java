@@ -152,7 +152,6 @@ public class GameScreen implements Screen, InputProcessor {
 		default:
 			break;
 		}
-		numClues = 75;
 
 		// Add all of the square's positions to a list
 		LinkedList<int[]> coords = new LinkedList<int[]>();
