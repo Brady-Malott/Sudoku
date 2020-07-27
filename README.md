@@ -1,6 +1,6 @@
 # Sudoku
 
-Sudoku game written in libgdx. Notable features include:
+Sudoku game written in Java using libgdx. Notable features include:
 
 - A sudoku board generator that generates a valid, completed sudoku board
 - A recursive backtracking algorithm that solves an incomplete board
